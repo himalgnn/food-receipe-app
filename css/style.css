@@ -57,6 +57,10 @@ body {
 .meal-search cite {
     font-size: 1rem;
 }
+.meal-search blockquote{
+    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
+}
 .meal-search-box {
     margin: 1.2rem 0;
     display: flex;
