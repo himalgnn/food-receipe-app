@@ -2,6 +2,9 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap");
 
+html{
+    scroll-behavior: smooth;
+}
 /* CSS Reset */
 * {
     padding: 0;
@@ -98,7 +101,7 @@ body {
     background: var(--tenne-tawny-dark);
 }
 .meal-result {
-    margin-top: 3.5rem;
+    margin-top: 4rem;
 }
 #meal { 
     margin: 2.4rem 0;
@@ -327,6 +330,7 @@ table {
         margin-left: auto;
         margin-right: auto;
     }
+    
 }
 @media screen and (min-width: 768px) {
     #meal {
@@ -340,11 +344,19 @@ table {
     .meal-details{
         width: 700px;
     }
+    
 }
 
 @media screen and (min-width: 992px) {
     #meal {
         grid-template-columns: repeat(3, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 400px){
+    .title{
+        font-size: 1.4rem;
     }
 }
 
